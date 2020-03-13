@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="GoStack" src="wallpapers/wallpaper_main.png" width="1000px" />
+    <img alt="GoStack" src="logo.png" width="100px" />
 </h1>
 
 <h3 align="center">
@@ -34,7 +34,7 @@
 
 ## :rocket: Descrição
 
-Aplicação iOS desenvolvida para um aplicativo de viagens, todo o fluxo principal do aplicativo
+Aplicação principal
 
 :heavy_minus_sign: [Aplicação Backend - NodeJS](https://github.com/IgorClemente/omnistack-week-challenge1)
 :heavy_minus_sign: [Aplicação Web - ReactJS](https://github.com/IgorClemente/omnistack-week-challenge2)
