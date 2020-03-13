@@ -1,0 +1,119 @@
+PODS:
+  - AWSCloudWatch (2.9.4):
+    - AWSCore (= 2.9.4)
+  - AWSCognito (2.9.4):
+    - AWSCore (= 2.9.4)
+  - AWSCognitoIdentityProvider (2.9.4):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.9.4)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.9.4)
+  - AWSDynamoDB (2.9.4):
+    - AWSCore (= 2.9.4)
+  - AWSLambda (2.9.4):
+    - AWSCore (= 2.9.4)
+  - AWSMobileAnalytics (2.9.4):
+    - AWSCore (= 2.9.4)
+  - AWSS3 (2.9.4):
+    - AWSCore (= 2.9.4)
+  - AWSSES (2.9.4):
+    - AWSCore (= 2.9.4)
+  - AWSSNS (2.9.4):
+    - AWSCore (= 2.9.4)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FBSDKCoreKit (4.44.1):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.44.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.44.1):
+    - FBSDKCoreKit
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GTMSessionFetcher/Core (1.2.1)
+  - Spring (1.0.6)
+
+DEPENDENCIES:
+  - AWSCloudWatch
+  - AWSCognito
+  - AWSCognitoIdentityProvider
+  - AWSDynamoDB
+  - AWSLambda
+  - AWSMobileAnalytics
+  - AWSS3
+  - AWSSES
+  - AWSSNS
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - GoogleSignIn (~> 4.4)
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSCloudWatch
+    - AWSCognito
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSDynamoDB
+    - AWSLambda
+    - AWSMobileAnalytics
+    - AWSS3
+    - AWSSES
+    - AWSSNS
+    - Bolts
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: fafd0b2e8d4d46405bd86fa7ba84bb7f73a20b13
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  AWSCloudWatch: 5fbe69fa371b6a4fef122be31482c3ede22fa3c5
+  AWSCognito: cc1bcbea1383e54764e67688a04af5895cf78625
+  AWSCognitoIdentityProvider: b90896ca0b8f3963a1b698f458ff441f21d26142
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 8539eaa1d687d50b6b127db5cb600e4c6b37cd4e
+  AWSDynamoDB: a358ce37ba0b22bacdf875da60020cf3439a95f3
+  AWSLambda: 9572aeae15673a9896e63f950285ac117311211a
+  AWSMobileAnalytics: e822f66120a4f054cd499286a4f9d395313e0f00
+  AWSS3: fe1b6c1880dde60c33e6c1afcf23c3a805c99a49
+  AWSSES: a6c1c05f1fb9a0038fad012a6563c79fc2eb1cc1
+  AWSSNS: 301cd06d4d2dc703901f6296e6f99b63dc7027a9
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FBSDKCoreKit: a823ae35bdb60ebb8d7a7e51abe7c5d87d2bfced
+  FBSDKLoginKit: 54ae59987f2a8703021557c90a9aebb9e5c2bef6
+  FBSDKShareKit: 526d4cfb713d24855fa23d0dd74e191accd3a720
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+
+PODFILE CHECKSUM: 81b11007d0aae51986ad879f63e81e04f97986b9
+
+COCOAPODS: 1.6.1

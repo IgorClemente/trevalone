@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EEC1982D5DA07A2B0179619 /* Pods_Trevalone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7FCB08FA97BF03FC67E690 /* Pods_Trevalone.framework */; };
+		C403E174227FAE3B00174C1E /* TermsAndConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403E173227FAE3B00174C1E /* TermsAndConditionViewController.swift */; };
+		C40A5481225E6C80002F44F2 /* AccessLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40A5480225E6C80002F44F2 /* AccessLoginViewController.swift */; };
+		C40A5484225E7642002F44F2 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40A5483225E7642002F44F2 /* UIViewController.swift */; };
+		C40A5486225E7717002F44F2 /* GCDBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40A5485225E7717002F44F2 /* GCDBox.swift */; };
+		C410413D225FD9E70069FC58 /* AccessSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C410413C225FD9E70069FC58 /* AccessSignupViewController.swift */; };
+		C415513D2259737400C895B8 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D039BA382256A1560037FDCB /* Roboto-Bold.ttf */; };
+		C415513E2259737800C895B8 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D039BA392256A1680037FDCB /* Roboto-Medium.ttf */; };
+		C460927E226DE05400E8BD3B /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C460927D226DE05400E8BD3B /* HomeViewController.storyboard */; };
+		C46687EC2267AE6A00AFCAE8 /* AccessSocialLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46687EB2267AE6A00AFCAE8 /* AccessSocialLoginViewController.swift */; };
+		C485803F225ECC950093409A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C485803E225ECC950093409A /* UIView.swift */; };
+		C489BA58226E62FD006F4245 /* TRVConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489BA57226E62FD006F4245 /* TRVConstants.swift */; };
+		C4938ACA226ED30B003004C5 /* UIDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4938AC9226ED30B003004C5 /* UIDismissAnimator.swift */; };
+		C4938ACC226ED344003004C5 /* UIDismissAnimatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4938ACB226ED344003004C5 /* UIDismissAnimatorExtension.swift */; };
+		C4C4F8B5227233D1000F66AC /* TRVClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C4F8B4227233D1000F66AC /* TRVClient.swift */; };
+		C4C8627E2267F7AE00C2441F /* SocialIdentityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8627D2267F7AE00C2441F /* SocialIdentityManager.swift */; };
+		C4C862802267FC7200C2441F /* CognitoIdentityPoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8627F2267FC7200C2441F /* CognitoIdentityPoolController.swift */; };
+		C4C862822268037500C2441F /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4C862812268037500C2441F /* credentials.plist */; };
+		C4CB9A28225FB8FC00609348 /* AlertInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB9A27225FB8FC00609348 /* AlertInformationViewController.swift */; };
+		C4F6EBE7225D6B8F001093C5 /* CognitoUserPoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6EBE6225D6B8F001093C5 /* CognitoUserPoolController.swift */; };
+		D02C659A22555453009D3E7A /* Rounder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C659922555453009D3E7A /* Rounder.swift */; };
+		D033E45422522BAD00F8F677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D033E45322522BAD00F8F677 /* AppDelegate.swift */; };
+		D033E45622522BAD00F8F677 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D033E45522522BAD00F8F677 /* ViewController.swift */; };
+		D033E45922522BAD00F8F677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D033E45722522BAD00F8F677 /* Main.storyboard */; };
+		D033E45B22522BB200F8F677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D033E45A22522BB200F8F677 /* Assets.xcassets */; };
+		D033E45E22522BB200F8F677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D033E45C22522BB200F8F677 /* LaunchScreen.storyboard */; };
+		D05A502E2255AE5300BCDB4D /* BottomLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A502D2255AE5300BCDB4D /* BottomLineTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FE8455C44AC9C560EC5B0BF /* Pods-Trevalone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trevalone.release.xcconfig"; path = "Target Support Files/Pods-Trevalone/Pods-Trevalone.release.xcconfig"; sourceTree = "<group>"; };
+		C403E173227FAE3B00174C1E /* TermsAndConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionViewController.swift; sourceTree = "<group>"; };
+		C40A5480225E6C80002F44F2 /* AccessLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessLoginViewController.swift; sourceTree = "<group>"; };
+		C40A5483225E7642002F44F2 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		C40A5485225E7717002F44F2 /* GCDBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDBox.swift; sourceTree = "<group>"; };
+		C410413C225FD9E70069FC58 /* AccessSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessSignupViewController.swift; sourceTree = "<group>"; };
+		C460927D226DE05400E8BD3B /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		C46687EB2267AE6A00AFCAE8 /* AccessSocialLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessSocialLoginViewController.swift; sourceTree = "<group>"; };
+		C485803E225ECC950093409A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		C489BA57226E62FD006F4245 /* TRVConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRVConstants.swift; sourceTree = "<group>"; };
+		C4938AC9226ED30B003004C5 /* UIDismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDismissAnimator.swift; sourceTree = "<group>"; };
+		C4938ACB226ED344003004C5 /* UIDismissAnimatorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDismissAnimatorExtension.swift; sourceTree = "<group>"; };
+		C4C4F8B4227233D1000F66AC /* TRVClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRVClient.swift; sourceTree = "<group>"; };
+		C4C8627D2267F7AE00C2441F /* SocialIdentityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialIdentityManager.swift; sourceTree = "<group>"; };
+		C4C8627F2267FC7200C2441F /* CognitoIdentityPoolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitoIdentityPoolController.swift; sourceTree = "<group>"; };
+		C4C862812268037500C2441F /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		C4CB9A27225FB8FC00609348 /* AlertInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertInformationViewController.swift; sourceTree = "<group>"; };
+		C4F6EBE6225D6B8F001093C5 /* CognitoUserPoolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitoUserPoolController.swift; sourceTree = "<group>"; };
+		D02C659922555453009D3E7A /* Rounder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rounder.swift; sourceTree = "<group>"; };
+		D033E45022522BAD00F8F677 /* Trevalone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trevalone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D033E45322522BAD00F8F677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D033E45522522BAD00F8F677 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D033E45822522BAD00F8F677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D033E45A22522BB200F8F677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D033E45D22522BB200F8F677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D033E45F22522BB200F8F677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D039BA382256A1560037FDCB /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		D039BA392256A1680037FDCB /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		D05A502D2255AE5300BCDB4D /* BottomLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomLineTextField.swift; sourceTree = "<group>"; };
+		FB1C240362EDED05F3683193 /* Pods-Trevalone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trevalone.debug.xcconfig"; path = "Target Support Files/Pods-Trevalone/Pods-Trevalone.debug.xcconfig"; sourceTree = "<group>"; };
+		FD7FCB08FA97BF03FC67E690 /* Pods_Trevalone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trevalone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D033E44D22522BAC00F8F677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEC1982D5DA07A2B0179619 /* Pods_Trevalone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19EC9BAE6DAF8164045BC1B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB1C240362EDED05F3683193 /* Pods-Trevalone.debug.xcconfig */,
+				8FE8455C44AC9C560EC5B0BF /* Pods-Trevalone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A93D163469D7B57FB0CE3648 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD7FCB08FA97BF03FC67E690 /* Pods_Trevalone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C403E172227FADD700174C1E /* TermsAndCoditions */ = {
+			isa = PBXGroup;
+			children = (
+				C403E173227FAE3B00174C1E /* TermsAndConditionViewController.swift */,
+			);
+			name = TermsAndCoditions;
+			sourceTree = "<group>";
+		};
+		C40A547F225E6C16002F44F2 /* AccessLogin */ = {
+			isa = PBXGroup;
+			children = (
+				C40A5480225E6C80002F44F2 /* AccessLoginViewController.swift */,
+				C410413C225FD9E70069FC58 /* AccessSignupViewController.swift */,
+			);
+			name = AccessLogin;
+			sourceTree = "<group>";
+		};
+		C40A5482225E762C002F44F2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C40A5483225E7642002F44F2 /* UIViewController.swift */,
+				C485803E225ECC950093409A /* UIView.swift */,
+				C4938ACB226ED344003004C5 /* UIDismissAnimatorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C46687EA2267ADF200AFCAE8 /* AccessSocialLogin */ = {
+			isa = PBXGroup;
+			children = (
+				C46687EB2267AE6A00AFCAE8 /* AccessSocialLoginViewController.swift */,
+			);
+			name = AccessSocialLogin;
+			sourceTree = "<group>";
+		};
+		C4C8627C2267F58700C2441F /* CognitoIdentityPool */ = {
+			isa = PBXGroup;
+			children = (
+				C4C8627D2267F7AE00C2441F /* SocialIdentityManager.swift */,
+				C4C8627F2267FC7200C2441F /* CognitoIdentityPoolController.swift */,
+			);
+			path = CognitoIdentityPool;
+			sourceTree = "<group>";
+		};
+		C4CB9A26225FB85D00609348 /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB9A27225FB8FC00609348 /* AlertInformationViewController.swift */,
+			);
+			name = AlertController;
+			sourceTree = "<group>";
+		};
+		C4CD6D012268FADA003ABDF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C489BA57226E62FD006F4245 /* TRVConstants.swift */,
+				C4C4F8B4227233D1000F66AC /* TRVClient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4F6EBE5225D6AEB001093C5 /* CognitoUserPool */ = {
+			isa = PBXGroup;
+			children = (
+				C4F6EBE6225D6B8F001093C5 /* CognitoUserPoolController.swift */,
+			);
+			name = CognitoUserPool;
+			sourceTree = "<group>";
+		};
+		D0216F5A2252963800A5CCB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4F6EBE5225D6AEB001093C5 /* CognitoUserPool */,
+				C4C8627C2267F58700C2441F /* CognitoIdentityPool */,
+				C46687EA2267ADF200AFCAE8 /* AccessSocialLogin */,
+				C4CB9A26225FB85D00609348 /* AlertController */,
+				C40A547F225E6C16002F44F2 /* AccessLogin */,
+				C403E172227FADD700174C1E /* TermsAndCoditions */,
+				D033E45522522BAD00F8F677 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D0216F5B2252964B00A5CCB0 /* ApplicationDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D033E45322522BAD00F8F677 /* AppDelegate.swift */,
+			);
+			path = ApplicationDelegate;
+			sourceTree = "<group>";
+		};
+		D0216F5C2252966300A5CCB0 /* ResourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D075FAAF2255BD6B0045F99A /* Fonts */,
+				D033E45A22522BB200F8F677 /* Assets.xcassets */,
+			);
+			path = ResourceFiles;
+			sourceTree = "<group>";
+		};
+		D0216F5D2252967E00A5CCB0 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D033E45122522BAD00F8F677 /* Products */,
+				D033E45F22522BB200F8F677 /* Info.plist */,
+				C4C862812268037500C2441F /* credentials.plist */,
+				C40A5485225E7717002F44F2 /* GCDBox.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D0216F5E2252968B00A5CCB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D02C659922555453009D3E7A /* Rounder.swift */,
+				D05A502D2255AE5300BCDB4D /* BottomLineTextField.swift */,
+				C4938AC9226ED30B003004C5 /* UIDismissAnimator.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0216F602252969A00A5CCB0 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D033E45C22522BB200F8F677 /* LaunchScreen.storyboard */,
+				D033E45722522BAD00F8F677 /* Main.storyboard */,
+				C460927D226DE05400E8BD3B /* HomeViewController.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D033E44722522BAC00F8F677 = {
+			isa = PBXGroup;
+			children = (
+				D033E45222522BAD00F8F677 /* Trevalone */,
+				19EC9BAE6DAF8164045BC1B8 /* Pods */,
+				A93D163469D7B57FB0CE3648 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D033E45122522BAD00F8F677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D033E45022522BAD00F8F677 /* Trevalone.app */,
+			);
+			name = Products;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D033E45222522BAD00F8F677 /* Trevalone */ = {
+			isa = PBXGroup;
+			children = (
+				C4CD6D012268FADA003ABDF6 /* Model */,
+				C40A5482225E762C002F44F2 /* Extensions */,
+				D0216F602252969A00A5CCB0 /* Storyboard */,
+				D0216F5E2252968B00A5CCB0 /* View */,
+				D0216F5D2252967E00A5CCB0 /* SupportingFiles */,
+				D0216F5C2252966300A5CCB0 /* ResourceFiles */,
+				D0216F5B2252964B00A5CCB0 /* ApplicationDelegate */,
+				D0216F5A2252963800A5CCB0 /* Controller */,
+			);
+			path = Trevalone;
+			sourceTree = "<group>";
+		};
+		D075FAAF2255BD6B0045F99A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D039BA382256A1560037FDCB /* Roboto-Bold.ttf */,
+				D039BA392256A1680037FDCB /* Roboto-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D033E44F22522BAC00F8F677 /* Trevalone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D033E46222522BB200F8F677 /* Build configuration list for PBXNativeTarget "Trevalone" */;
+			buildPhases = (
+				AE8A856E8CCBB42A255ECD1F /* [CP] Check Pods Manifest.lock */,
+				D033E44C22522BAC00F8F677 /* Sources */,
+				D033E44D22522BAC00F8F677 /* Frameworks */,
+				D033E44E22522BAC00F8F677 /* Resources */,
+				9BF46E4BF9101EE9F6853C5D /* [CP] Embed Pods Frameworks */,
+				7CE546E30BBAD6A6531831CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trevalone;
+			productName = Trevalone;
+			productReference = D033E45022522BAD00F8F677 /* Trevalone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D033E44822522BAC00F8F677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Trevalone;
+				TargetAttributes = {
+					D033E44F22522BAC00F8F677 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = D033E44B22522BAC00F8F677 /* Build configuration list for PBXProject "Trevalone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D033E44722522BAC00F8F677;
+			productRefGroup = D033E45122522BAD00F8F677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D033E44F22522BAC00F8F677 /* Trevalone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D033E44E22522BAC00F8F677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C415513E2259737800C895B8 /* Roboto-Medium.ttf in Resources */,
+				C4C862822268037500C2441F /* credentials.plist in Resources */,
+				C460927E226DE05400E8BD3B /* HomeViewController.storyboard in Resources */,
+				D033E45E22522BB200F8F677 /* LaunchScreen.storyboard in Resources */,
+				D033E45B22522BB200F8F677 /* Assets.xcassets in Resources */,
+				C415513D2259737400C895B8 /* Roboto-Bold.ttf in Resources */,
+				D033E45922522BAD00F8F677 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CE546E30BBAD6A6531831CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trevalone/Pods-Trevalone-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trevalone/Pods-Trevalone-resources.sh",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trevalone/Pods-Trevalone-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trevalone/Pods-Trevalone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BF46E4BF9101EE9F6853C5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trevalone/Pods-Trevalone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE8A856E8CCBB42A255ECD1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trevalone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D033E44C22522BAC00F8F677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C489BA58226E62FD006F4245 /* TRVConstants.swift in Sources */,
+				C4CB9A28225FB8FC00609348 /* AlertInformationViewController.swift in Sources */,
+				C46687EC2267AE6A00AFCAE8 /* AccessSocialLoginViewController.swift in Sources */,
+				D033E45622522BAD00F8F677 /* ViewController.swift in Sources */,
+				C4C862802267FC7200C2441F /* CognitoIdentityPoolController.swift in Sources */,
+				D02C659A22555453009D3E7A /* Rounder.swift in Sources */,
+				C40A5481225E6C80002F44F2 /* AccessLoginViewController.swift in Sources */,
+				C4938ACA226ED30B003004C5 /* UIDismissAnimator.swift in Sources */,
+				C4C8627E2267F7AE00C2441F /* SocialIdentityManager.swift in Sources */,
+				D05A502E2255AE5300BCDB4D /* BottomLineTextField.swift in Sources */,
+				C4F6EBE7225D6B8F001093C5 /* CognitoUserPoolController.swift in Sources */,
+				C4C4F8B5227233D1000F66AC /* TRVClient.swift in Sources */,
+				D033E45422522BAD00F8F677 /* AppDelegate.swift in Sources */,
+				C40A5486225E7717002F44F2 /* GCDBox.swift in Sources */,
+				C4938ACC226ED344003004C5 /* UIDismissAnimatorExtension.swift in Sources */,
+				C410413D225FD9E70069FC58 /* AccessSignupViewController.swift in Sources */,
+				C40A5484225E7642002F44F2 /* UIViewController.swift in Sources */,
+				C403E174227FAE3B00174C1E /* TermsAndConditionViewController.swift in Sources */,
+				C485803F225ECC950093409A /* UIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D033E45722522BAD00F8F677 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D033E45822522BAD00F8F677 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D033E45C22522BB200F8F677 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D033E45D22522BB200F8F677 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D033E46022522BB200F8F677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D033E46122522BB200F8F677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D033E46322522BB200F8F677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB1C240362EDED05F3683193 /* Pods-Trevalone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MSY48RE9K;
+				INFOPLIST_FILE = "$(SRCROOT)/Trevalone/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trevalone.Trevalone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D033E46422522BB200F8F677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE8455C44AC9C560EC5B0BF /* Pods-Trevalone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MSY48RE9K;
+				INFOPLIST_FILE = "$(SRCROOT)/Trevalone/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trevalone.Trevalone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D033E44B22522BAC00F8F677 /* Build configuration list for PBXProject "Trevalone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D033E46022522BB200F8F677 /* Debug */,
+				D033E46122522BB200F8F677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D033E46222522BB200F8F677 /* Build configuration list for PBXNativeTarget "Trevalone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D033E46322522BB200F8F677 /* Debug */,
+				D033E46422522BB200F8F677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D033E44822522BAC00F8F677 /* Project object */;
+}
