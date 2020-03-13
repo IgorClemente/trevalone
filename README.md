@@ -54,7 +54,7 @@ O fluxo principal utiliza:
   <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone01.png" width="400" height="700" />
   <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone02.png" width="400" height="700" />
   <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone03.png" width="400" height="700" />
-  <img src="https://github.com/IgorClemente/trevalone/blob/master/Screenshots/screenshottrevalone04.png" width="400" height="700" />
+  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone04.png" width="400" height="700" />
 
 </h2>
 
