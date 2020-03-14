@@ -30,6 +30,7 @@
   <a href="#rocket-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-tecnologias-e-ferramentas">Tecnologias e Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#iphone-screenshot">Screenshot</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#iphone-screenshot">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -46,6 +47,10 @@ O fluxo principal utiliza:
 - [Swift](https://www.apple.com/br/swift/)
 - [AWS SDK](https://aws.amazon.com/pt/tools/)
 - [AWS Cognito](https://aws.amazon.com/pt/cognito/)
+
+## :movie_camera: Preview
+
+![](preview/trevalone01.gif)
 
 ## :iphone: Screenshot
 
