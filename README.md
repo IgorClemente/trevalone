@@ -51,8 +51,8 @@ O fluxo principal utiliza:
 ## :movie_camera: Preview
 
 <h2>
-  ![preview/trevalone01.gif](https://www.youtube.com/watch?v=BSpLC6BmtvA)
-  ![preview/trevalone01.gif](https://www.youtube.com/watch?v=HGe0YBPlL2M)
+  [![Trevalone](http://img.youtube.com/vi/BSpLC6BmtvA/0.jpg)](http://www.youtube.com/watch?v=BSpLC6BmtvA "Trevalone Fluxo de Login")
+  [![Trevalone](http://img.youtube.com/vi/HGe0YBPlL2M/0.jpg)](http://www.youtube.com/watch?v=HGe0YBPlL2M "Trevalone Fluxo de SignUp")
 </h2>
 
 ## :iphone: Screenshot
