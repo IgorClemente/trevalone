@@ -30,7 +30,7 @@
   <a href="#rocket-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-tecnologias-e-ferramentas">Tecnologias e Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#iphone-screenshot">Screenshot</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#iphone-screenshot">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#movie_camera-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -50,15 +50,20 @@ O fluxo principal utiliza:
 
 ## :movie_camera: Preview
 
-![](preview/trevalone01.gif)
+<h2>
+  [![](preview/trevalone01.gif)](https://www.youtube.com/watch?v=BSpLC6BmtvA)
+  [![](preview/trevalone01.gif)](https://www.youtube.com/watch?v=HGe0YBPlL2M)
+
+  <iframe width="1280" height="1161" src="https://www.youtube.com/embed/HGe0YBPlL2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</h2>
 
 ## :iphone: Screenshot
 
 <h2 align="center">
-  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone01.png" width="428" height="995" />
-  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone02.png" width="428" height="995" />
-  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone03.png" width="428" height="995" />
-  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone04.png" width="428" height="995" />
+  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone01.png" width="428" height="970" />
+  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone02.png" width="428" height="970" />
+  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone03.png" width="428" height="970" />
+  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone04.png" width="428" height="970" />
 </h2>
 
 ## :memo: Licença
