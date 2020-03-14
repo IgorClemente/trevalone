@@ -51,10 +51,8 @@ O fluxo principal utiliza:
 ## :movie_camera: Preview
 
 <h2>
-  [![](preview/trevalone01.gif)](https://www.youtube.com/watch?v=BSpLC6BmtvA)
-  [![](preview/trevalone01.gif)](https://www.youtube.com/watch?v=HGe0YBPlL2M)
-
-  <iframe width="1280" height="1161" src="https://www.youtube.com/embed/HGe0YBPlL2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  ![preview/trevalone01.gif](https://www.youtube.com/watch?v=BSpLC6BmtvA)
+  ![preview/trevalone01.gif](https://www.youtube.com/watch?v=HGe0YBPlL2M)
 </h2>
 
 ## :iphone: Screenshot
