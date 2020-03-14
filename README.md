@@ -56,10 +56,10 @@ O fluxo principal utiliza:
 
 <h2 align="center">
 
-  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone01.png" width="400" height="1000" />
-  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone02.png" width="400" height="1000" />
-  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone03.png" width="400" height="1000" />
-  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone04.png" width="400" height="1000" />
+  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone01.png" width="400" height="900" />
+  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone02.png" width="400" height="900" />
+  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone03.png" width="400" height="900" />
+  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone04.png" width="400" height="900" />
 
 </h2>
 
