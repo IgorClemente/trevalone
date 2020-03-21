@@ -56,10 +56,10 @@ O fluxo principal utiliza:
 ## :iphone: Screenshot
 
 <h2 align="center">
-  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone01.png" width="428" height="970" />
-  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone02.png" width="428" height="970" />
-  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone03.png" width="428" height="970" />
-  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone04.png" width="428" height="970" />
+  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone01.png" width="428" height="960" />
+  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone02.png" width="428" height="960" />
+  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone03.png" width="428" height="960" />
+  <img src="https://github.com/IgorClemente/trevalone/blob/master/screenshots/screenshottrevalone04.png" width="428" height="960" />
 </h2>
 
 ## :memo: Licença
